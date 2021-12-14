@@ -7,7 +7,7 @@ print("\n========== Part 1 ==========")
 
 print(sequence.count('(') - sequence.count(')'))
 
-print("\n========== Part 1 ==========")
+print("\n========== Part 2 ==========")
 floor = 0
 for c in range(len(sequence)):
     if sequence[c] == ")":
